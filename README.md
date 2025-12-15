@@ -13,7 +13,7 @@
 - [Limitations](#limitations)  
 
 ### Project Overview
-This project implements a **Network Intrusion Detection System (NIDS)** using supervised machine learning techniques. The system leverages an **ensemble learning approach (Stacking Classifier)** to combine multiple base models (Linear Regression, K‑Nearest Neighbors (KNN), and Gaussian Naive Bayes, with a Logistic Regression meta‑model). The goal is to accurately classify network traffic as either **normal** or **malicious**, providing robust detection of intrusions while minimizing false positives and false negatives.
+This project implements a **Network Intrusion Detection System (NIDS)** using supervised machine learning techniques. The system leverages an **ensemble learning approach (Stacking Classifier)** to combine multiple base models **(Linear Regression, K‑Nearest Neighbors (KNN), and Gaussian Naive Bayes, with a Logistic Regression meta‑model)**. The goal is to accurately classify network traffic as either **normal** or **malicious**, providing robust detection of intrusions while minimizing false positives and false negatives.
 
 ### Data Sources
 - **Kaggle Network Traffic Dataset** – Real‑time network traffic data containing features such as IP addresses, port numbers, protocols, packet sizes, flags, and derived statistical features.  
